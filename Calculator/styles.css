@@ -1,0 +1,38 @@
+body{
+  /* background: #8ECFEC; */  
+    background: url('https://i0.wp.com/picjumbo.com/wp-content/uploads/HNCK3288.jpg?w=2210&quality=50');
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#calculator{
+    margin-top:40px;
+}
+
+#calculator .col, #calculator .col-3{
+    padding:40px;
+    border:1px solid #333;
+    margin: 3px;
+    border-radius: 10px;
+    box-shadow:1px 1px 5px #333;
+}
+#calculator .num {
+    background:#092B40;
+    color:#ccc;
+    cursor:pointer;
+}
+#calculator #clean, #calculator #result{
+    background: white;
+}
+#calculator #clean{
+    background: #FF634D;
+    cursor:pointer;
+    color:white;
+}
+#calculator #result{
+    background:#344E60;
+    color:white;
+    text-align:right;
+    font-size: 1.5em;
+    padding:30px;
+}
