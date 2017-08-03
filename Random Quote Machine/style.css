@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+
+body{
+    background: url('tileable_wood_texture.png') repeat;
+    font-family: 'Slabo 27px', serif;
+    
+}
+#header{
+    padding-top: 20px;
+    margin: 0 auto;
+    }
+

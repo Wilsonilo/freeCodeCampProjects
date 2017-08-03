@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Zilla+Slab');
+
+body{
+    background: #092B40;
+    color:#F6EFEF;
+    font-family: 'Zilla Slab', serif;
+}
+.container{
+    margin-top:40px;
+}
+.container .card{
+    background: #344E60;
+    box-shadow: 1px 1px 10px #ccc;
+}
+.container .card a{
+    color:#fff;
+}
+#iconsearch{
+    cursor:pointer;
+    margin:20px 0;
+}
+#searchingelements{
+    opacity:0;
+}
+#elementsresultarea ul{
+    list-style: none;
+}
+#elementsresultarea ul li{
+    margin:20px 0;
+    padding: 20px 0;
+    background: white;
+}
+#elementsresultarea ul li a{
+        color:#092B40;
+        font-size: 1.3em;
+}
+#elementsresultarea ul li #extract{
+    font-size:0.7em;
+    color:#C66C34;
+}

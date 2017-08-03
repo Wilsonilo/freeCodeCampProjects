@@ -1,0 +1,40 @@
+@import url('https://fonts.googleapis.com/css?family=Abel');
+
+body{
+    background: #6441A5;
+    color:white;
+    font-family: 'Abel', sans-serif;
+}
+.container{
+    margin-top:40px;
+}
+.container h4{
+    text-transform: uppercase;
+}
+.nav-tabs a{
+    color:white;
+}
+.nav-tabs a:active{
+    color:#6441A5;
+}
+.tab-pane{
+    color:#333;
+}
+.tab-pane li{
+    text-align:left;
+    list-style:none;    
+    border-top:1px solid #333;
+    margin:10px 0;
+    border-bottom:1px solid #333;
+    padding: 5px 0;
+}
+.tab-pane a{
+    color:#333;
+}
+.tab-pane li .logostreamer{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    margin-right:10px;
+    margin-left:10px;
+}

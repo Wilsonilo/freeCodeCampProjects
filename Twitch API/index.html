@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TWITCH TV API</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="script.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+</head>
+<body>
+    <div class="container" align="center">
+        <div class="row justify-content-md-center">
+            <div class="col-3">
+                <h4 class="animated bounceIn">Twitch TV:</h4>
+                <!-- All / Online / Offline -->
+
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs animated bounceIn" role="tablist">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#all" role="tab">All</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#online" role="tab">Online</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#offline" role="tab">Offline</a>
+                  </li>
+                </ul>
+
+                <!-- Tab panes -->
+                <div class="tab-content card animated bounceIn">
+                  <div class="tab-pane active" id="all" role="tabpanel">
+                    <div>
+                        <input type="text" name="search" id="search" placeholder="Look for a Streamer" class="form-control" />
+                        <div id="streamers"></div>
+                    </div>
+                  </div>
+                  <div class="tab-pane" id="online" role="tabpanel">Streamers Online:</div>
+                  <div class="tab-pane" id="offline" role="tabpanel">Streamers Offline:</div>
+                </div>
+
+            </div>
+        </div>
+        <small>Coded for Freecodecamp by W. Muñoz.</small>
+    </div>
+</body>
+</html>
