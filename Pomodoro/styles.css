@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Quicksand');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background:#8ECFEC;
+    color:#092B40;
+}
+.container {
+    margin-top:20px;
+}
+.container h1 {
+    font-family: 'Anton', sans-serif; 
+}
+.container .controls a{
+    border-radius:50%;
+    background:#092B40;
+    min-height:44px;
+    padding-top:10px;
+    border:1px solid white;
+    color:white;
+}
+.container .controls .counter{
+    font-size: 1.5em;
+    color:#7D3131;
+}
+#pomodoro{
+    margin-top:20px;
+    min-height:300px;
+    border: 5px solid #344E60;
+    box-shadow:1px 1px 3px #333;
+    background:#8ECFEC;
+    border-radius: 50%;
+    color:white;
+    cursor:pointer;
+    overflow:hidden;
+}
+#pomodoro #mode{
+    position:absolute;
+    float:left;
+    left:31%;
+    top:20%;
+    font-size:2em;
+}
+#pomodoro #timer{
+    position:absolute;
+    float:left;
+    left:20%;
+    top:30%;
+    font-size:5em;
+    font-family: 'Anton', sans-serif; 
+}
+#pomodoro #progress {
+    content:'\A';
+    position:absolute;
+    background:#092B40;
+    top:0; bottom:0;
+    left:0;
+    z-index: 0;
+    border-radius: 50%;    
+    width:100%; /* Specify the width.. */
+}

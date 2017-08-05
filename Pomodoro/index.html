@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FreecodeCamp Pomodoro</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" />
+    <script
+  src="http://code.jquery.com/jquery-3.2.1.min.js"
+  integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+  crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+    <script src="scripts.js"></script> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
+</head>
+<body>
+    <div class="container animated fadeIn">
+        <h1 align="center">Simple Pomodoro</h1>              
+        <div class="row justify-content-md-center" align="center">
+            <div class="col-2 controls">
+                BREAK LENGTH
+                <br />
+                <a href="#" id="morebreak" class="btn animated flip">+</a>
+                <div id="counterbreak" class="counter">
+                    5
+                </div>
+                <a href="#" id="lessbreak" class="btn animated flip">-</a>
+            </div>
+            <div class="col-2 controls">
+                SESSION LENGTH
+                <br />
+                <a href="#" id="moresession" class="btn animated flip">+</a>
+                <div id="countersession" class="counter">
+                   25
+                </div>
+                <a href="#" id="lesssession" class="btn animated flip">-</a>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-3 animated bounceIn" id="pomodoro">
+                <div id="progress">
+                </div>
+                <div id="mode">
+                    Session
+                </div>
+                <div id="timer">
+                    00:00
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
