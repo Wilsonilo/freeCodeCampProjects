@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Quicksand');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background:#222D3D;
+    color:#C5CCD6;
+}
+.container {
+    margin-top:20px;
+}
+.container h1 {
+    font-family: 'Anton', sans-serif; 
+}
+#tictactoe{
+    color:#222D3D;
+  min-height:500px;  
+}
+#tictactoe .col{
+    background:#C5CCD6;    
+    border: 1px solid black;
+    height:200px;
+    cursor:pointer;
+    color: white;
+    font-size: 2em;
+    font-family: 'Anton', sans-serif; 
+    text-align:center;
+    padding-top:80px;
+    border-radius: 20px;
+    box-shadow: 1px 1px 3px #333;
+}
