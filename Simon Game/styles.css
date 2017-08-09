@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css?family=Anton|Quicksand');
+
+body{
+    font-family: 'Quicksand', sans-serif;
+    background:#222D3D;
+    color:#C5CCD6;
+}
+.container {
+    margin-top:20px;
+}
+.container h1 {
+    font-family: 'Anton', sans-serif; 
+}
+
+#simon {
+    border: 10px solid #8ECFEC;
+    border-radius:50%;
+    height: 550px;
+    background:white;
+    overflow:hidden;
+    box-shadow:2px 2px 5px #ccc;
+}
+#simon #green, #simon #yellow{
+    border-right: 5px solid #333;
+    border-bottom: 5px solid #333;
+    cursor:pointer;
+    padding:100px;
+}
+#simon #red, #simon #blue{
+    border-bottom: 5px solid #333;
+    cursor:pointer;
+    padding:100px;
+}
+
+#simon #red{
+    background:#FF634D;
+    height:275px;
+}
+#simon #green{
+    background: #14CB64;
+    height:275px;
+}
+#simon #yellow{
+    background: #CCC76A;
+    height:275px;
+}
+#simon #blue{
+    background: #4C82F8;
+    height275px;
+}
